@@ -55,7 +55,7 @@ This will:
 2. Captures the TTY of the I/O pane.
 3. Launches GDB in the main pane, binding it to the I/O pane’s TTY.
 4. Sends some extra GDB key sequences for layout convenience.
-5. Ensures the session is killed when GDB exits.
+5. After you close GDB do ctrl+d to close the left tmux panel.
 
 ---
 
